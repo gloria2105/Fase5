@@ -1,0 +1,285 @@
+*{
+    margin: 5px;
+}
+
+#General{
+    width: 1300x;
+    height: 1200px;
+    margin: 5px;
+    background-color: rgba(74, 197, 197, 0.415);
+}
+
+#Encabezado{
+    height: 11%;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+#Logo{
+    width: 100px;
+    height: 90%;
+    
+    margin: 5px;
+    float: left;
+}
+
+#Titulo{
+    float: right;
+    width: 70%;
+    height: 80%;
+    
+    margin: 12px;
+    text-align: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: black;
+    
+}
+
+#Contenido{
+    height: 85%;
+    
+    margin: 10px;
+}
+
+#Informacion{
+    height: 98%;
+    width: 68%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -200px;
+}
+
+#Menu{
+    height: 98%;
+    width: 27%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#Menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+}
+
+#Menu ul li {
+    display: inline; 
+    margin: 0 10px; 
+}
+
+
+#Pie-pagina{
+    height: 3%;
+    width: 98%;
+    text-align: center;
+}
+
+.img-logo{
+    width: 100px;
+    height: 90px;
+    align-content: center;
+}
+
+.img-1{
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.buscador{
+    float: right;
+    width: 30%;
+    height: 20%;
+    align-content: center;
+    
+}
+
+.img-2{
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-3{
+    height: 50px;
+}
+
+.img-4{
+    height: 50px;
+}
+
+.img-5{
+    height: 50px;
+}
+
+
+#Informacion .imagenes-horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Informacion .imagenes-horizontal img {
+    margin: 0 10px;
+}
+
+.img-6{
+    height: 50px;
+}
+
+
+#Cuadros {
+    display: flex; 
+    margin-top: 20px;
+}
+
+.imagen-con-texto {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    height: 250px;
+}
+
+.imagen-con-texto img {
+    height: 100px; 
+    margin-bottom: 10px; 
+}
+
+.cuadro-verde {
+    background-color: rgba(15, 184, 15, 0.712); 
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#Informacion p {
+    margin: 20px 0; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+#Whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#Whatsapp-icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#NuevoMenu {
+    
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#NuevoMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#NuevoMenu ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 520px;
+}
+
+.producto img {
+    width: 500px;
+    height: 500px;
+}
+.producto h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.producto p {
+    font-size: 16px;
+    color: #555;
+}
+
+.agregar-carrito {
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.agregar-carrito:hover {
+    background-color: #0056b3;
+}
+
+.carrito-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.carrito-link:hover {
+    background-color: #0056b3;
+}
+
+.notificacion {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: none;
+    z-index: 1000;
+}
